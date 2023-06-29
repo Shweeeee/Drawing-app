@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/ib_yellow_brush"
+        android:contentDescription="small brush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yellow"
+        android:tag="@color/yellow"/>
+    <ImageButton
+        android:id="@+id/ib_fuchsia_brush"
+        android:contentDescription="small brush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fuchsia"
+        android:tag="@color/fuchsia"/>
+    <ImageButton
+        android:id="@+id/ib_red_brush"
+        android:contentDescription="small brush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red"
+        android:tag="@color/red"
+        />
+    <ImageButton
+        android:id="@+id/ib_white_brush"
+        android:contentDescription="small brush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/white"
+        android:tag="@color/white"/>
+    <ImageButton
+        android:id="@+id/ib_blue_brush"
+        android:contentDescription="small brush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blue"
+        android:tag="@color/blue"
+        />
+    <ImageButton
+        android:id="@+id/ib_green_brush"
+        android:contentDescription="small brush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/green"
+        android:tag="@color/lime"
+        />
+    <ImageButton
+        android:id="@+id/ib_brown_brush"
+        android:contentDescription="small brush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brown"
+        android:tag="@color/brown"
+        />
+    <ImageButton
+        android:id="@+id/ib_black_brush"
+        android:contentDescription="small brush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/black"
+        />
+
+
+
+</LinearLayout>
